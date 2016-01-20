@@ -1,5 +1,5 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'datafusion'
+require 'tinycli'
 
 def fixture_content(file)
   File.read(fixture(file))
